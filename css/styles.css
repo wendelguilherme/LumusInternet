@@ -355,13 +355,13 @@ form{
     }
 
     .body-banner{
-        padding: 4rem;
+        padding: 5rem;
         background-size: cover;
         background-repeat: no-repeat;
     }
 
     .search-adress{
-        margin: 60px 40px 60px 40px;
+        margin: 35px 40px 35px 40px;
     }
 
     form{
@@ -370,6 +370,10 @@ form{
         flex-direction: column;
         align-content: center;
         align-items: center;
+    }
+
+    .input-num{
+        margin: 1rem 0 1rem 0;
     }
 
     .search-adress form div{
