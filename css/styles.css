@@ -278,9 +278,6 @@ form{
         margin-top: 30px;
     }
 
-    .plan .plan-btn {
-}
-
     .plan{
         padding-bottom: 30px;
     }
@@ -291,6 +288,12 @@ form{
         background-repeat: no-repeat;
     }
 
-
+    .form{
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        padding: 0 3rem 0 4rem;
+        margin-top: 30px;
+    }
 
 }
