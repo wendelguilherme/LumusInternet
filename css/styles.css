@@ -298,9 +298,104 @@ form{
     font-weight: bold;
 }
 
+@media (min-width:600px) and (max-width:900px) {
+
+    .logo {
+        margin-top: 1px;
+        width: 75px;
+    }
+
+    .default-btn {
+        margin-left: 0px;
+    }
+
+    .plans-container {
+        margin: 50px 0px 0px 0px;
+        width: 100%;
+    }
+
+    .plan {
+        margin: 0px 6px 0px 6px;
+        padding: 0px 3px 0px 3px;
+    }
+
+    .plan .price {
+        font-size: 35px;
+    }
+
+    form {
+        width: 600px;
+        margin: 0;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .input-cel {
+        margin-right: 30px;
+    }
+
+    .input-btn {
+        margin-top: 50px;
+    }
+
+    .final-bar {
+        height: 500px;
+    }
+
+    .bar-center {
+        margin-left: 10px;
+        width: 500px;
+        height: 500px;
+    }
+
+    .menu {
+        column-count: 2;
+        font-size: 18px;
+        height: 420px;
+
+    }
+
+    .menu li.list {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .sociais {
+
+        width: 100%;
+        position: absolute;
+        width: 300px;
+        margin: 0 auto;
+        flex-direction: column;
+        display: flex;
+        padding-left: 100px;
+        padding-top: 100px;
+    }
+
+    .network {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .sociais-list {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .social-media {
+        flex-direction: column;
+        display: flex;
+    }
+}
+
 
 /*responsividade celular normal*/
-@media (max-width:500px){
+@media (min-width:350px) and (max-width:576px){
 
     .navbar-items{
         margin: 0px;
@@ -416,97 +511,3 @@ form{
     }
 }
 
-@media (max-width:900px){
-
-    .logo{
-        margin-top: 1px;
-        width: 75px;
-    }
-    .default-btn{
-        margin-left: 0px;
-    }
-    
-    .plans-container{
-        margin: 50px 0px 0px 0px;
-        width: 100%;
-    }
-
-    .plan{
-        margin: 0px 6px 0px 6px;
-        padding: 0px 3px 0px 3px;
-    }
-
-    .plan .price{
-        font-size: 35px;
-    }
-
-    form{
-        width: 600px;
-        margin: 0;
-        display: flex;
-        margin: 0 auto;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-
-    .input-cel{
-        margin-right: 30px;
-    }
-
-    .input-btn{
-        margin-top: 50px;
-    }
-
-    .final-bar{
-        height: 500px;
-    }
-    .bar-center{
-        margin-left: 10px;
-        width: 500px;
-        height: 500px;
-    }
-
-    .menu{
-        column-count: 2;
-        font-size: 18px;
-        height: 420px;
-
-    }
-
-    .menu li.list{
-        text-align: center;
-        width: 100%;
-        margin-bottom: 30px;
-    }
-
-    .sociais {
-
-        width: 100%;
-        position: absolute;
-        width: 300px;
-        margin: 0 auto;
-        flex-direction: column;
-        display: flex;
-        padding-left: 100px;
-        padding-top: 100px;
-    }
-
-    .network{
-        margin-top: 30px;
-        text-align: center;
-    }
-
-    .sociais-list{
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-    }
-
-    .social-media{
-        flex-direction: column;
-        display: flex;
-    }
-
-
-}
