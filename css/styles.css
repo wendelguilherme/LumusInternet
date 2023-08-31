@@ -323,6 +323,10 @@ form{
         font-size: 35px;
     }
 
+    .plan .plan-name{
+        font-size: 18px;
+    }
+
     form {
         width: 600px;
         margin: 0;
